@@ -2,7 +2,7 @@
 
 In this project, there will be several ways to handle a variable system.
 
-===============================
+
      Weighted Loot System
 ===============================
 The first one I've added is the Weighted Loot System, can be found and demo'd on the WeightGacha Scene in \Scenes!
