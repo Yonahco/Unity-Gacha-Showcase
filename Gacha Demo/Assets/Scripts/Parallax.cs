@@ -51,7 +51,7 @@ public class Parallax : MonoBehaviour {
     }
 
 
-    // Update is called once per frame
+    /*// Update is called once per frame
     void Update() {
         Vector2 newPos = startPos + travel * parallaxFactor;
         transform.position = new Vector3(xAxis ? newPos.x : startPos.x, yAxis ? newPos.y : startPos.y, zPosition);
@@ -62,6 +62,6 @@ public class Parallax : MonoBehaviour {
             float screens = (int)((totalTravel.x + boundsOffset) / viewWidth);
             transform.position += new Vector3(screens * viewWidth, 0);
         }
-    }
+    }*/
 
 }
