@@ -18,6 +18,7 @@ For now there is an error in terms of the Parallax Sprites having an invalid inp
      Troubshooting Q & A
 ===============================
 Q1. You've pulled the project and can not seem to interact with the UI?!
+
 A1. This is because of good ol Raycasting and it's priority heiarchy, quite a finnicky little one.
     So to setup the proper Raycasting Priorities, disable the Raycast checkbox under 'Loot Table' Game Object in the inspector.
     If so desired, you can disable all Raycasting properties on all instances. Then the UI of 'Weighted Loot Table' should be 
